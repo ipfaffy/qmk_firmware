@@ -408,7 +408,7 @@ static void render_logo(void) {
 static void print_status_narrow(void) {
     // Print current mode
     oled_write_P(PSTR("\n\n"), false);
-    oled_write_ln_P(PSTR("Dane\nEvans"), false);
+    oled_write_ln_P(PSTR("mike"), false);
 
     oled_write_ln_P(PSTR(""), false);
 
